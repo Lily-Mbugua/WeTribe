@@ -10,6 +10,7 @@ class App extends Component {
       <div className="container">
         <Route exact path="/" component={Login} />
         <Route path="/register" component={Register} />
+        <FormikContainer/>
       </div>
     );
   }
